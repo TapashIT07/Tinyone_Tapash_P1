@@ -42,14 +42,26 @@ img {
 }
 
 .container {
-  max-width: 90%;
+  max-width: 75%;
   }
 
                       /* Menu Part Starts  */
 .menu_part {
   background: #fcdb00;
 } 
-                      
+
+.menu {
+  position: relative;
+}
+.collapse_btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: 1px solid #000;
+  padding: 0 5px;
+  border-radius: 5px;
+  display: none;
+}
 
 .my_logo {
   width: 40px;
@@ -68,9 +80,31 @@ img {
   justify-content: end;
   align-items: center;
 }
+
 .hero_img_main img {
-width: 50%;
-height: 60%;
+width: 55%;
+height: 65%;
+margin-right: 25px;
 }
+
+.hero_con p {
+  color: #555555;
+}
+
+.shape_1, .shape_2, .shape_3 {
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  }
+
+ .shape_2 {
+  opacity: 0.7;
+ }
+ .shape_3 {
+  opacity: 0.4;
+ }
+
                       /* Menu Part Ends  */
          /* ------------------------------------------------ */
