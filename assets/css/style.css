@@ -29,10 +29,10 @@ h6 {
   }
   
 
-img {
+/* img {
   width: 100%;
   height: auto;
-}
+} */
 
 
 :root {
@@ -106,5 +106,93 @@ margin-right: 25px;
   opacity: 0.4;
  }
 
+                      /* Back-To-Top Part Starts  */
+.back_to_top i {
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgb(160, 32, 32);
+  border-radius: 10%;
+  background: rgb(160, 32, 32);
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+  
+}
+
+                      /* Back-To-Top Part Ends  */
+         /* ------------------------------------------------ */
+
                       /* Menu Part Ends  */
+         /* ------------------------------------------------ */
+
+.feature_icon img {
+  width: 30px;
+  height: 30px;
+}
+                      /* Feature Part Starts  */
+
+
+                      /* Contact Part Starts  */
+.contact_part {
+  background: #010101;
+}
+
+.contact_head p {
+  color: #898989;
+}
+.contact_head h5 {
+  font-weight: bold;
+  color: #fcdb00;
+
+}
+
+.contact_form button {
+  border: none;
+  border-radius: 5px;
+  padding: 8px 10px;
+  width:100px;
+  background: #fcdb00;
+  font-weight: bold;
+}
+
+.contact_form input {
+  width: 450px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 8px 0 0;
+}
+
+
+.social_part ul {
+  display: flex;
+  padding: 3px;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.social_part ul li a {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fcdb00;
+  padding: 5px;
+  background: #fcdb00;
+  display: block;
+  margin-right: 15px;
+  line-height: 20px;
+  font-size: 20px;
+  border-radius: 6px;
+} 
+
+.footer_1 p {
+  font-size: 16px;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+                      /* Contact Part Ends  */
          /* ------------------------------------------------ */
